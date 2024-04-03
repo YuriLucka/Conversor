@@ -144,6 +144,7 @@ function converterD(){
         return;
     }
 
-    
+    alert("Calma calabreso, esse botão ainda está em desenvolvimento 😎")
+
 
 }
