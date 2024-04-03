@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="conversor.css">
+    <script defer src="conversor.js"></script>
+</head>
+<body>
+    <div class="formulario">
+        <div class="conteiner">
+            <label for="hexadecimal">Hexadecimal</label>
+            <input type="text" name="hexadecimal" class="hexadecimal" oninput="maiusculo(this)">
+            <button class="conversor" onclick="converterH()">
+                Converter 0x
+            </button>
+        </div>
+        <div class="conteiner">
+            <label for="binario">Binário</label>
+            <input type="number" name="binario" class="binario">
+            <button class="conversor" onclick="converterB()">
+                Converter 0b
+            </button>
+        </div>
+        <div class="conteiner">
+            <label for="decimal">Decimal</label>
+            <input type="number" name="decimal" class="decimal">
+            <button class="conversor" onclick="converterD()">
+                Converter 0d
+            </button>
+        </div>
+    </div>
+    <a href="index.html"><i class="bi bi-box-arrow-in-left"></i>Voltar</a>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes</title>
+    <link rel="stylesheet" href="ipv4.css">
+    <script defer src="ipv4.js"></script>
+</head>
+<body>
+    <div class="formulario">
+        <p>
+            <b>32 Bits:</b> 4 Bytes
+        </p>
+        <p>
+            <b>Classe A:</b> 1 Byte = 8 Bits<br>1° Byte de 0 a 127
+            <br><br>
+            <b>Classe B:</b> 2 Bytes = 16 Bits<br>1° Byte de 128 a 191
+            <br><br>
+            <b>Classe C:</b> 3 Bytes = 24 Bits<br>1° Byte de 192 a 223
+        </p>
+        <p>
+            <b>Unicast</b> Identifica uma única máquina.
+            <br><br>
+            <b>Broadcast</b> Identifica todas as máquinas que estão conectadas a uma mesma rede.
+            <br><br>
+            <b>Multicast</b> Vai ser recebido por todas as máquinas que pertencerem a um mesmo aquele grupo.
+            <br><br>
+            <b>Anycast</b> Permite que várias máquinas diferentes possam ser acessadas atravésde um mesmo endereço IP.
+        </p>
+        <div class="alinhar">
+            <div class="conteiner">
+                <label for="decimal">CIDR</label>
+                <input type="number" name="decimal" class="decimal">
+                <button class="conversor" onclick="calcular()">
+                    Calcular
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <a href="index.html"><i class="bi bi-box-arrow-in-left"></i>Voltar</a>
+</body>
+</html>
