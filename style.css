@@ -21,7 +21,7 @@ body{
 
 .formulario{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     padding: 50px;
@@ -63,9 +63,9 @@ input{
     border-radius: 2px;
 }
 
-@media only screen and (orientation: landscape) {
+@media (orientation: portrait) {
     .formulario{
-        flex-direction: row;
+        flex-direction: column;
         padding: 20px;
     }
 
