@@ -133,7 +133,7 @@ function converterD(){
 
     //------------VALIDAÇÃO DE DECIMAL
     if(!valor){
-        return alert("Digite um número inteiro.")
+        return alert("Digite um valor Decimal.")
     }
     let regex = /^\d+$/;
     if (!regex.test(valor)) {
