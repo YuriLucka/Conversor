@@ -128,7 +128,7 @@ function converterD(){
     let valor_hexadecimal = document.querySelector(".hexadecimal");
     let valor_binario = document.querySelector(".binario");
     let valor_decimal = document.querySelector(".decimal");
-    let binario = "";
+    let binariov = "";
     let valor = valor_decimal.value;
 
     //------------VALIDAÇÃO DE DECIMAL
@@ -137,14 +137,35 @@ function converterD(){
     }
     let regex = /^\d+$/;
     if (!regex.test(valor)) {
-        alert("O valor não é um número inteiro.");
+        alert("O valor não é um número inteiro válido.");
         valor_hexadecimal.value = "";
         valor_binario.value = "";
         valor_decimal.value = "";
         return;
     }
 
-    alert("Calma calabreso, esse botão ainda está em desenvolvimento 😎")
+    if(valor == 0) {
+        valor_binario.value = "0000";
+        valor_hexadecimal.value = "0";
+        return;
+    }
+    
+    while(valor > 0){
+        binariov = (valor % 2) + binariov; // Adiciona o bit mais significativo no início
+        valor = Math.floor(valor / 2); // Divide o valor decimal por 2
+    }
 
+    valor_binario.value = binariov;
+    //------------ BINARIO PARA HEXADECIMAL
+    let hexadecimal = "";
 
+    while(binariov.length % 4 != 0){ // Garantindo que o comprimento seja divisível por 4
+        binariov = "0" + binariov;
+    }
+
+    for(let i = 0; i < binariov.length; i += 4){
+        hexadecimal += binario[binariov.slice(i, i+4)];
+    }
+
+    valor_hexadecimal.value = hexadecimal;
 }
