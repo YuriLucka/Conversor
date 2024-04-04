@@ -72,8 +72,9 @@ function converterH(){
     let decimal = 0;
     let multiplicador = 1;
     for(i=0; i < binario_invertido.length; i++){
-        if(binario_invertido[i] == "1");
+        if(binario_invertido[i] == "1"){
             decimal += binario_invertido[i]*multiplicador;
+        }
         multiplicador *= 2;
     }
     valor_decimal.value = decimal;
@@ -116,8 +117,9 @@ function converterB(){
     let decimal = 0;
     let multiplicador = 1;
     for(i=0; i < valor_invertido.length; i++){
-        if(valor_invertido[i] == "1");
+        if(valor_invertido[i] == "1"){
             decimal += valor_invertido[i]*multiplicador;
+        }
         multiplicador *= 2;
     }
     valor_decimal.value = decimal;
