@@ -1,4 +1,4 @@
 function calcular(){
-    alert("Calma caraio, eu ainda to desenvolvendo 😎👍")
+    alert("Calma amigão, eu ainda to desenvolvendo 😎👍")
 }
 
