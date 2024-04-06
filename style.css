@@ -61,8 +61,15 @@ a{
         flex-direction: column;
     }
 
+    img{
+        display: inline;
+    }
+
 }
 
 img{
-    cursor: pointer;
+    max-width: 90vw;
+    max-height: 50vh;
+    position: absolute;
+    bottom: 0;
 }
