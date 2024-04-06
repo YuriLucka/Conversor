@@ -29,8 +29,7 @@ function calcularCidr(){
         classe_rede = "D ou E, sendo que não a usamos"
     }
 
-
-    alert(`REDES:\n${bits_redes} bits para endereçamento de redes.\nPossivel endereçar ${end_redes} redes únicas\n\nHOSTS\n${bits_hosts} bits para endereçamento de hosts.\n${ip_disp} endereços IP disponiveis.\n\n${end_maquinas} para Maquinas.\n1 para a rede.\n1 para o broadcast.\n\nCLASSE:\nEssa classe é do tipo ${classe_rede}.`)
+    alert(`REDES:\n${bits_redes} bits para endereçamento de redes.\nPossivel endereçar ${end_redes} redes únicas\n\nHOSTS:\n${bits_hosts} bits para endereçamento de hosts.\n${ip_disp} endereços IP disponiveis.\n\n${end_maquinas} para Máquinas.\n1 para a Rede.\n1 para o Broadcast.\n\nCLASSE:\nEssa classe é do tipo ${classe_rede}.`)
 
 }
 
