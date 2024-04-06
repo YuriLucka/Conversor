@@ -16,7 +16,7 @@ html,body{
 }
 
 body{
-    background: linear-gradient(rgb(195, 255, 195),rgb(190, 255, 240));
+    background: linear-gradient(45deg,rgb(244, 189, 255),rgb(255, 249, 171));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,4 +61,8 @@ a{
         flex-direction: column;
     }
 
+}
+
+img{
+    cursor: pointer;
 }
