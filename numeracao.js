@@ -24,6 +24,7 @@ function calcularm(){
     if (!mega.value){
         return
     }
+    let regex = /^\d+$/;
     if (!regex.test(mega.value)) {
         alert("O valor não é um número inteiro válido.");
         return;
@@ -36,6 +37,7 @@ function calcularg(){
     if (!giga.value){
         return
     }
+    let regex = /^\d+$/;
     if (!regex.test(giga.value)) {
         alert("O valor não é um número inteiro válido.");
         return;
@@ -49,6 +51,7 @@ function calculart(){
     if (!tera.value){
         return
     }
+    let regex = /^\d+$/;
     if (!regex.test(tera.value)) {
         alert("O valor não é um número inteiro válido.");
         return;
@@ -63,6 +66,7 @@ function calcularp(){
     if (!peta.value){
         return
     }
+    let regex = /^\d+$/;
     if (!regex.test(peta.value)) {
         alert("O valor não é um número inteiro válido.");
         return;
@@ -78,6 +82,7 @@ function calculare(){
     if (!exa.value){
         return
     }
+    let regex = /^\d+$/;
     if (!regex.test(exa.value)) {
         alert("O valor não é um número inteiro válido.");
         return;
@@ -94,6 +99,7 @@ function calcularz(){
     if (!zeta.value){
         return
     }
+    let regex = /^\d+$/;
     if (!regex.test(zeta.value)) {
         alert("O valor não é um número inteiro válido.");
         return;
@@ -111,6 +117,7 @@ function calculary(){
     if (!yota.value){
         return
     }
+    let regex = /^\d+$/;
     if (!regex.test(yota.value)) {
         alert("O valor não é um número inteiro válido.");
         return;
