@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeração</title>
+    <link rel="stylesheet" href="numeracao.css">
+</head>
+<body>
+    <div class="formulario">
+        <p>
+            <b>Nible:</b> 4 bits = 2^4.
+            <br><br>
+            <b>Byte:</b> 8 bits = 2^8.
+            <br><br>
+            <b>Word:</b> 16 bits = 2^16.
+            <br><br>
+            <b>Double Word (Dword):</b> 32 bits = 2^32.
+            <br><br>
+            <b>Quad Word (Qword):</b> 64 bits = 2^64.
+            <br><br>
+        </p>
+        <table>
+           <tr>
+            <th>
+                Unidade
+            </th>
+            <th>
+                Símbolo
+            </th>
+            <th>
+                Valor
+            </th>
+            <th>
+                Número
+            </th>
+            <th>
+                ^
+            </th>
+           </tr>
+           <tr>
+                <th>quilo</th>
+                <th>K</th>
+                <td>2^10</td>
+                <td>
+                    <input type="number" name="" id="quilo">
+                </td>
+                <td>
+                    <button onclick="calcularq()">Calc</button>
+                </td>
+           </tr>
+           <tr>
+                <th>Mega</th>
+                <th>M</th>
+                <td>2^20</td>
+                <td>
+                    <input type="number" name="" id="mega">
+                </td>
+                <td>
+                    <button onclick="calcularm()">Calc</button>
+                </td>
+           </tr>
+           <tr>
+                <th>Giga</th>
+                <th>G</th>
+                <td>2^30</td>
+                <td>
+                    <input type="number" name="" id="giga">
+                </td>
+                <td>
+                    <button onclick="calcularg()">Calc</button>
+                </td>
+           </tr>
+           <tr>
+                <th>Tera</th>
+                <th>T</th>
+                <td>2^40</td>
+                <td>
+                    <input type="number" name="" id="tera">
+                </td>
+                <td>
+                    <button onclick="calculart()">Calc</button>
+                </td>
+           </tr>
+           <tr>
+                <th>Peta</th>
+                <th>P</th>
+                <td>2^50</td>
+                <td>
+                    <input type="number" name="" id="peta">
+                </td>
+                <td>
+                    <button onclick="calcularp()">Calc</button>
+                </td>
+           </tr>
+           <tr>
+                <th>Exa</th>
+                <th>E</th>
+                <td>2^60</td>
+                <td>
+                    <input type="number" name="" id="exa">
+                </td>
+                <td>
+                    <button onclick="calculare()">Calc</button>
+                </td>
+           </tr>
+           <tr>
+                <th>Zeta</th>
+                <th>Z</th>
+                <td>2^70</td>
+                <td>
+                    <input type="number" name="" id="zeta">
+                </td>
+                <td>
+                    <button onclick="calcularz()">Calc</button>
+                </td>
+           </tr>
+           <tr>
+                <th>Yota</th>
+                <th>Y</th>
+                <td>2^80</td>
+                <td>
+                    <input type="number" name="" id="yota">
+                </td>
+                <td>
+                    <button onclick="calculary()">Calc</button>
+                </td>
+           </tr>
+        </table>
+    </div>
+    <a href="index.html"><i class="bi bi-box-arrow-in-left"></i>Voltar</a>
+    <script src="numeracao.js"></script>
+</body>
+</html>
